@@ -1,0 +1,27 @@
+body { 
+    background-image: url(working-at-night_4460x4460.jpg);
+    background-size : cover ;
+    display: flex;
+    justify-content: center;
+    
+}
+.fadeS {
+    font-family: fantasy;
+    font-size : 4em;
+    color: black;
+    opacity: 0.5;
+}
+.hovoo , .fadeS{
+    transition: 1s;
+}
+.hovoo:hover , .fadeS:hover {
+    opacity: 1 !important;
+    
+}
+.subbtn{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+.subbtn:hover{
+    transform: scale(1.4);
+}
